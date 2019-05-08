@@ -16,17 +16,17 @@ Groemping.
 ## High Level Notes
 
 * Use blocking to account for factors that probably have an effect but aren't interesting.
-- Date
-- Batch of materials
-- Person performing experiments
-- Equipment the test is performed on
+  - Date
+  - Batch of materials
+  - Person performing experiments
+  - Equipment the test is performed on
 * Pay attention to the [resolution](https://en.wikipedia.org/wiki/Fractional_factorial_design#Resolution) of the study. Stay within III-V most of the time. 
-- I  : Not Useful
-- II : Not useful, can't distinguish main effects
-- III: Useful, estimate main effects but can't distinguish two-factor interactions
-- IV : Useful, can estimate main and two-factor effects but two factor interactions can be confounded
-- V  : Useful, can estimate main, two-factor, two-factor interactions and three factor interactions
-- VI : Rarely useful, overkill, estimate all above factors unless there is other three-factor interactions
+  - I  : Not Useful
+  - II : Not useful, can't distinguish main effects
+  - III: Useful, estimate main effects but can't distinguish two-factor interactions
+  - IV : Useful, can estimate main and two-factor effects but two factor interactions can be confounded
+  - V  : Useful, can estimate main, two-factor, two-factor interactions and three factor interactions
+  - VI : Rarely useful, overkill, estimate all above factors unless there is other three-factor interactions
 
 
 ## Fractional Factorial Designs with 2-Level Factors

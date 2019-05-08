@@ -20,23 +20,23 @@ by Ulrike Groemping.
 
   - Use blocking to account for factors that probably have an effect but
     aren’t interesting.
-  - Date
-  - Batch of materials
-  - Person performing experiments
-  - Equipment the test is performed on
+      - Date
+      - Batch of materials
+      - Person performing experiments
+      - Equipment the test is performed on
   - Pay attention to the
     [resolution](https://en.wikipedia.org/wiki/Fractional_factorial_design#Resolution)
     of the study. Stay within III-V most of the time.
-  - I : Not Useful
-  - II : Not useful, can’t distinguish main effects
-  - III: Useful, estimate main effects but can’t distinguish two-factor
-    interactions
-  - IV : Useful, can estimate main and two-factor effects but two factor
-    interactions can be confounded
-  - V : Useful, can estimate main, two-factor, two-factor interactions
-    and three factor interactions
-  - VI : Rarely useful, overkill, estimate all above factors unless
-    there is other three-factor interactions
+      - I : Not Useful
+      - II : Not useful, can’t distinguish main effects
+      - III: Useful, estimate main effects but can’t distinguish
+        two-factor interactions
+      - IV : Useful, can estimate main and two-factor effects but two
+        factor interactions can be confounded
+      - V : Useful, can estimate main, two-factor, two-factor
+        interactions and three factor interactions
+      - VI : Rarely useful, overkill, estimate all above factors unless
+        there is other three-factor interactions
 
 ## Fractional Factorial Designs with 2-Level Factors
 
@@ -61,14 +61,14 @@ example1 %>% bind_cols(example1_runorder) %>% knitr::kable(format = "markdown")
 | frother | collector | salinity | run.no.in.std.order | run.no | run.no.std.rp |
 | :------ | :-------- | :------- | :------------------ | -----: | :------------ |
 | 1       | 1         | 1        | 4                   |      1 | 4.1           |
-| \-1     | 1         | \-1      | 3                   |      2 | 3.1           |
-| \-1     | \-1       | 1        | 1                   |      3 | 1.1           |
-| 1       | \-1       | \-1      | 2                   |      4 | 2.1           |
+| \-1     | \-1       | 1        | 1                   |      2 | 1.1           |
+| 1       | \-1       | \-1      | 2                   |      3 | 2.1           |
+| \-1     | 1         | \-1      | 3                   |      4 | 3.1           |
 | \-1     | \-1       | 1        | 1                   |      5 | 1.2           |
-| \-1     | 1         | \-1      | 3                   |      6 | 3.2           |
-| 1       | \-1       | \-1      | 2                   |      7 | 2.2           |
-| 1       | 1         | 1        | 4                   |      8 | 4.2           |
+| 1       | \-1       | \-1      | 2                   |      6 | 2.2           |
+| 1       | 1         | 1        | 4                   |      7 | 4.2           |
+| \-1     | 1         | \-1      | 3                   |      8 | 3.2           |
 | \-1     | \-1       | 1        | 1                   |      9 | 1.3           |
-| 1       | \-1       | \-1      | 2                   |     10 | 2.3           |
-| \-1     | 1         | \-1      | 3                   |     11 | 3.3           |
-| 1       | 1         | 1        | 4                   |     12 | 4.3           |
+| \-1     | 1         | \-1      | 3                   |     10 | 3.3           |
+| 1       | 1         | 1        | 4                   |     11 | 4.3           |
+| 1       | \-1       | \-1      | 2                   |     12 | 2.3           |
