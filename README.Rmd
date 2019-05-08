@@ -1,0 +1,11 @@
+---
+title: "Design of Experiments in R"
+output: markdown_document
+author: Mathew Merryweather
+---
+
+# Introduction
+
+This repository is designed to be a refrence for myself and others for using R
+in the design of experiments. It is a living document to store code snippets and
+reminders of how to achieve outcomes given inputs and constraints.
